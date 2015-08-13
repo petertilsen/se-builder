@@ -87,29 +87,29 @@ builder.selenium2.io.formats.push(builder.selenium2.io.createLangFormatter({
       "  #print is NOT IMPLEMENTED\n",
     "refresh":
       "  Reload Page\n",
+    "setElementSelected":
+      "  Select Checkbox  {locatorBy}={locator}\n",
+    "setElementNotSelected":
+      "  Unselect Checkbox  {locatorBy}={locator}\n",
+    "verifyElementSelected":
+      "  Checkbox Should Be Selected  {locatorBy}={locator}\n",
+    "assertElementSelected":
+      "  Checkbox Should Be Selected  {locatorBy}={locator}\n",
+    "waitForElementSelected":
+      "  #waitForElementSelected is NOT IMPLEMENTED\n",
+    "verifyElementValue":
+      "  Textfield Value Should Be  {locatorBy}={locator}  {value}\n",
+    "assertElementValue":
+      "  Textfield Value Should Be  {locatorBy}={locator}  {value}\n",
+    "waitForElementValue":
+      "  #waitForElementValue is NOT IMPLEMENTED\n",
+    "verifyElementAttribute":
+      "  #verifyElementAttribute is NOT IMPLEMENTED\n",
+    "assertElementAttribute":
+      "  #assertElementAttribute is NOT IMPLEMENTED\n",
+    "waitForElementAttribute":
+      "  #waitForElementAttribute is NOT IMPLEMENTED\n",
 
-//     "setElementSelected":
-//       "- Select {locatorBy} \"{locator}\"\n",
-//     "setElementNotSelected":
-//       "- Deselect {locatorBy} \"{locator}\"\n",
-//     "verifyElementSelected":
-//       "- Make sure {locatorBy} \"{locator}\" is {negNot}selected\n",
-//     "assertElementSelected":
-//       "- If {locatorBy} \"{locator}\" is {posNot}selected, scream at the coders\n",
-//     "waitForElementSelected":
-//       "- Wait until {locatorBy} \"{locator}\" is {negNot}selected\n",
-//     "verifyElementValue":
-//       "- Make sure {locatorBy} \"{locator}\" has a value which is {negNot}\"{value}\"\n",
-//     "assertElementValue":
-//       "- If {locatorBy} \"{locator}\" has a value which is {posNot}\"{value}\", scream at the coders\n",
-//     "waitForElementValue":
-//       "- Wait until the value of {locatorBy} \"{locator}\" is {negNot}\"{value}\"\n",
-//     "verifyElementAttribute":
-//       "- Make sure {locatorBy} \"{locator}\" has a \"{attributeName}\" attribute which is {negNot}\"{value}\"\n",
-//     "assertElementAttribute":
-//       "- If {locatorBy} \"{locator}\" has a \"{attributeName}\" attribute which is {posNot}{value}, scream at the coders\n",
-//     "waitForElementAttribute":
-//       "- Wait until the \"{attributeName}\" attribute of {locatorBy} \"{locator}\" is {negNot}\"{value}\"\n",
 //     "addCookie":
 //       "- You're supposed to add a cookie called \"{name}\" with the value of \"{value}\", but that's hard since you're not a computer. I suggest baking a batch of real cookies instead.\n",
 //     "deleteCookie":
