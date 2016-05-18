@@ -264,9 +264,7 @@ builder.locator.fromElement = function(element, applyTextTransforms) {
     // don't start at the root.
     xpath = (xpath.substring(0, 2) !== "//" ? ("/" + xpath) : xpath);
     values[builder.locator.methods.xpath] = [xpath];
-    if (!preferredMethod) {
-      preferredMethod = builder.locator.methods.xpath;
-    }
+    preferredMethod = builder.locator.methods.xpath;
   }
   
   // Locate by XPath

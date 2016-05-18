@@ -14,7 +14,9 @@ builder.selenium2.io.formats.push(builder.selenium2.io.createLangFormatter({
     "goForward":
       "  #goForward is NOT IMPLEMENTED\n",
     "clickElement":
-      "  Click Element  {locatorBy}={locator}\n",
+      "  Click Element  {locatorBy}={locator}\n
+        #It is unclear if this element is a button, please disable Click Element and enable Click Button if the test fails\n
+        #Click Button  {locatorBy}={locator}\n",
     "setElementText":
       "  Input Text  {locatorBy}={locator}  {text}\n",
     "submitElement":
@@ -46,9 +48,9 @@ builder.selenium2.io.formats.push(builder.selenium2.io.createLangFormatter({
     "waitForPageSource":
       "  #waitForPageSource is NOT IMPLEMENTED\n",
     "verifyText":
-      "  Element Text Should Be  {text}\n",
+      "  Element Text Should Be  {locatorBy}={locator}  {text}\n",
     "assertText":
-      "  Element Text Should Be  {text}\n",
+      "  Element Text Should Be  {locatorBy}={locator}  {text}\n",
     "waitForText":
       "  Wait Until Page Contains  {text}",
     "verifyCurrentUrl":
