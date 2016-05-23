@@ -5,7 +5,7 @@
     <Description about="urn:mozilla:install-manifest">
         <em:id>seleniumbuilder@uniplaces.com</em:id>
         <em:name>Selenium Builder</em:name>
-        <em:version>0.0.2-dev</em:version>
+        <em:version>0.0.3-dev</em:version>
         <em:type>2</em:type>
         <em:creator>Selenium Builder</em:creator>
         <em:developer>David Stark / Peter Tilsen</em:developer>

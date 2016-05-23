@@ -94,7 +94,7 @@ bridge.boot = function() {
   bridge.recordingTab = getBrowser().mCurrentTab;
   
   if (bridge.getRecordingWindow().location.href.substring(0, "about:".length) == "about:") {
-    bridge.getRecordingWindow().location = "http://www.sebuilder.com";
+    bridge.getRecordingWindow().location = "http://www.uniplaces.com";
   }
 
   // Make it obvious which tab is recording by turning it green!
@@ -128,7 +128,7 @@ bridge.boot = function() {
 };
 
 bridge.getInternalFile = function(path, callback) {
-  var MY_ID = "seleniumbuilder@saucelabs.com";
+  var MY_ID = "seleniumbuilder@uniplaces.com";
   try {
     // We may be on FF 4 or later
     Components.utils.import("resource://gre/modules/AddonManager.jsm");
@@ -154,7 +154,7 @@ bridge.loadFile = function(url, success, error) {
   }
   var prefix = "chrome://seleniumbuilder/";
   var path = "chrome/" + url.substring(prefix.length);
-  var MY_ID = "seleniumbuilder@saucelabs.com";
+  var MY_ID = "seleniumbuilder@uniplaces.com";
   var file = null;
   try {
     // We may be on FF 4 or later
