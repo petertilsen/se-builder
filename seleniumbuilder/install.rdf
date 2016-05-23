@@ -3,15 +3,15 @@
      xmlns:em="http://www.mozilla.org/2004/em-rdf#">
 
     <Description about="urn:mozilla:install-manifest">
-        <em:id>seleniumbuilder@saucelabs.com</em:id>
+        <em:id>seleniumbuilder@uniplaces.com</em:id>
         <em:name>Selenium Builder</em:name>
-        <em:version>2.3.4-dev</em:version>
+        <em:version>0.0.1-dev</em:version>
         <em:type>2</em:type>
         <em:creator>Selenium Builder</em:creator>
-        <em:developer>David Stark</em:developer>
+        <em:developer>David Stark / Peter Tilsen</em:developer>
         <em:description>Create automated cross-browser functional tests easily and quickly.</em:description>
       	<em:iconURL>chrome://seleniumbuilder/content/html/img/builder-logo.png</em:iconURL>
-        <em:homepageURL>http://www.sebuilder.com/</em:homepageURL>
+        <em:homepageURL>http://www.uniplaces.com/</em:homepageURL>
         <em:updateURL>https://seleniumbuilder.github.io/se-builder/update.rdf</em:updateURL>
         <em:unpack>true</em:unpack>
 
